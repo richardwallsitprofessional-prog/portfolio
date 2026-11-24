@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Richard Walls III · Artist, Educator, Technologist</title>
+<meta name="description" content="Portfolio of Richard Walls III: painter, muralist and animator, 10+ year educator, tradesman, and data center technologist in training.">
+<meta property="og:title" content="Richard Walls III">
+<meta property="og:description" content="Artist. Educator. Technologist.">
+<meta property="og:image" content="img/41.jpg">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <a class="mark" href="#top" aria-label="Richard Walls III, back to top">RW<span>III</span></a>
+    <nav aria-label="Sections">
+      <a href="#worlds">About</a>
+      <a href="#art">Art</a>
+      <a href="#motion">Animation</a>
+      <a href="#code">Code</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO: name, then the Night Path painting grows from a framed card to full bleed as you scroll -->
+  <section class="hero" id="top">
+    <div class="hero-pin">
+      <div class="hero-copy">
+        <h1 class="hero-name" aria-label="Richard Walls III">
+          <span class="ln"><span>Richard</span></span>
+          <span class="ln"><span>Walls III</span></span>
+        </h1>
+        <p class="hero-roles">
+          <span>Artist.</span> <span>Educator.</span> <span>Technologist.</span>
+        </p>
+      </div>
+      <figure class="hero-frame" aria-hidden="true">
+        <img src="img/41.jpg" alt="">
+      </figure>
+      <p class="hero-cap">Savanna Sunset, acrylic on canvas</p>
+      <div class="scroll-cue" aria-hidden="true"><i></i></div>
+    </div>
+  </section>
+
+  <!-- STATEMENT: his own line, revealed word by word -->
+  <section class="statement" aria-label="Philosophy">
+    <div class="statement-pin">
+      <p class="reveal" id="reveal">I see technology not as a collection of tools, but as an evolving system of optimization and innovation.</p>
+    </div>
+  </section>
+
+  <!-- FOUR WORLDS -->
+  <section class="worlds" id="worlds">
+    <div class="wrap">
+      <h2 class="h-xl">Four disciplines.<br>One way of working.</h2>
+      <p class="lede">The studio taught me patience. The classroom taught me to explain. The job site taught me safety. The data center is teaching me how it all connects.</p>
+
+      <div class="world-grid">
+        <article class="world w-art">
+          <h3>Art &amp; Animation</h3>
+          <p class="big">BFA, Computer Animation<br>MA, Design &amp; Technology</p>
+          <p>Portraits in graphite, pastel and paint. Murals that take over school hallways. Characters drawn, sculpted, modeled in 3D and set in motion.</p>
+        </article>
+        <article class="world w-class">
+          <h3>Classroom</h3>
+          <p class="big"><span class="num" data-count="10">10</span>+ years</p>
+          <p>Teaching Computer Graphics, STEM, Robotics, Coding, and Animation. I call them scholars, because that is what they are.</p>
+        </article>
+        <article class="world w-site">
+          <h3>Job Site</h3>
+          <p class="big">Insulation, Concrete, Carpentry</p>
+          <p>Scaffolding, fall protection, lockout/tagout and OSHA practice. Safety first, measure twice, leave it cleaner than you found it.</p>
+        </article>
+        <article class="world w-tech">
+          <h3>Data Center &amp; AI</h3>
+          <p class="big">Per Scholas<br>Data Center Training</p>
+          <p>CompTIA A+ and Cisco coursework, networking and IT support, plus Claude 101: moving from basic prompting to orchestrated, agentic workflows.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ART: pinned horizontal gallery -->
+  <section class="hgallery" id="art" aria-label="Selected artwork">
+    <div class="hg-pin">
+      <div class="hg-head wrap">
+        <h2 class="h-xl light">Selected work.</h2>
+        <p class="hg-count"><span id="hgIdx">01</span> / <span id="hgTotal">10</span></p>
+      </div>
+      <div class="hg-track" id="hgTrack"></div>
+      <div class="hg-bar"><i id="hgBar"></i></div>
+    </div>
+  </section>
+
+  <!-- ARCHIVE -->
+  <section class="archive" id="archive">
+    <div class="wrap">
+      <div class="arch-head">
+        <h2 class="h-lg">The full archive.</h2>
+        <div class="filters" id="filters" role="toolbar" aria-label="Filter artwork by discipline"></div>
+      </div>
+      <div class="masonry" id="grid"></div>
+    </div>
+  </section>
+
+  <!-- ANIMATION -->
+  <section class="motion" id="motion">
+    <div class="wrap">
+      <h2 class="h-xl light">In motion.</h2>
+      <p class="lede light">Reels and short films, hosted on Vimeo.</p>
+      <div class="reel">
+        <a class="reel-hero" href="https://vimeo.com/422228236" target="_blank" rel="noopener">
+          <img src="img/34.jpg" alt="Night Path, a moonlit forest path between dark tree trunks">
+          <span class="reel-shade"></span>
+          <span class="reel-txt">
+            <span class="reel-k">Featured</span>
+            <span class="reel-t">Demo Reel</span>
+            <span class="play"><i aria-hidden="true"></i>Watch on Vimeo</span>
+          </span>
+        </a>
+        <ol class="reel-list">
+          <li><a href="https://vimeo.com/45731344" target="_blank" rel="noopener"><b>Bruce Lee Animation</b><span>Character animation</span></a></li>
+          <li><a href="https://vimeo.com/39175610" target="_blank" rel="noopener"><b>Typography Animation</b><span>Motion type</span></a></li>
+          <li><a href="https://vimeo.com/33570395" target="_blank" rel="noopener"><b>Cool Juice: The Road Lion Hunter</b><span>Short film</span></a></li>
+          <li><a href="https://vimeo.com/33367651" target="_blank" rel="noopener"><b>Cool Juice</b><span>Short film</span></a></li>
+          <li><a href="https://vimeo.com/45738611" target="_blank" rel="noopener"><b>Gallery Presentation, NC State</b><span>Showcase</span></a></li>
+          <li><a href="https://vimeo.com/richardwalls" target="_blank" rel="noopener"><b>Everything on Vimeo</b><span>vimeo.com/richardwalls</span></a></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- CODE -->
+  <section class="code" id="code">
+    <div class="wrap">
+      <h2 class="h-xl">Built to be used.</h2>
+      <p class="lede">Small, working tools that come straight out of the data center, the classroom, the job site and the studio. Each one runs in the browser and is open source on GitHub.</p>
+      <div class="proj-list" id="projects"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <p class="motto"><span>Showing up.</span> <span>Leveling up.</span> <span>Contributing long&#8209;term.</span></p>
+      <div class="contact-row" id="contactLinks"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>© <span id="yr"></span> Richard Walls III</span>
+    <span>Atlanta, Georgia</span>
+  </div>
+</footer>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Artwork viewer">
+  <button class="lb-close" id="lbClose" type="button">Close</button>
+  <img id="lbImg" alt="">
+  <div class="lb-meta">
+    <div><b id="lbTitle"></b><span id="lbMeta"></span></div>
+    <div class="lb-btns">
+      <button type="button" id="lbPrev" aria-label="Previous piece">Previous</button>
+      <button type="button" id="lbNext" aria-label="Next piece">Next</button>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
